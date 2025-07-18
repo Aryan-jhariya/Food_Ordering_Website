@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('backgrnd.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+}
+
+nav h1{
+    display: inline;
+    margin: 0px 15px;
+
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero{
+    text-align: center;
+    padding: 200px 400px;
+    background:black;
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 100px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+/* Menu Section */
+#menu {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 50px auto;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+.burger-menu {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.burger-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 600px;
+    text-align:center;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+}
+
+.burger-item img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.burger-item:hover img {
+    transform: scale(1.1);
+}
+
+.burger-item h3 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.burger-item p {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 50px auto;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+}
+
+.button{
+    color: white;
+    background: red;
+    padding: 4px 4px;
+    font-size: 13px;
+    border-radius: 10px;
+    cursor: pointer;
+}
